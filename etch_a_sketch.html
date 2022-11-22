@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="etch_style.css"></link>
+</head>
+<body>
+    <div class="sticky first">
+        <span><a href="/index.html">Home</a></span>
+        <span><a href="/calculator.html">Calculator</a></span>
+        <span><a href="/etch_a_sketch.html">Etch-A-Sketch</a></span>
+        <span><a href="/rps.html">Rock-Paper-Scissors</a></span>
+        <span><a href="/contact_me.html">Contact me</a></span>
+      </div>
+
+      <main>
+        <article id="etchBorder">
+            <h1>Etch-A-Sketch</h1>
+            <div id="playArea"></div>
+            <input id='areaRange' type="range" min="4" max="48" value="16">
+
+            <div id="btns">
+                <button id="greyBtn">Greatscale</button>
+                <button id="rainbowBtn">Rainbow</button>
+                <button id="eraser">Eraser</button>
+                <button id='resetBtn'>Reset</button>
+            </div>
+        </article>
+    </main>
+    <script src="etch.js"></script>
+</body>
+</html>

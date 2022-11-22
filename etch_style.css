@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(232, 241, 250)
+}
+.sticky{
+    position:sticky;
+    top:10px;
+    color:white;
+    padding: 10px;
+    font-size:1.1em;
+    background-color:lightblue;
+    box-shadow: 2px 2px black;
+  }
+  span {
+    margin-right: 15%
+  }
+  a{
+    font-family: 'Rubik Distressed', cursive;
+  }
+  a:link {
+    color:black;
+  }
+  a:visited {
+    color: aliceblue;
+  }
+  a:hover{
+    cursor: pointer;
+    color: red;
+  }
+  #banner {
+    text-align: left;
+    font-size: 3rem;
+    letter-spacing: -4px;
+    font-family: 'Rubik Distressed';
+    font-weight: 2;
+  }
+main{
+    display:flex;
+    justify-content: center;
+    flex-shrink: 1;
+}
+h1{
+    font-size: xx-large;
+    color: rgb(255, 195, 65);
+    text-shadow: 2px 2px black;
+}
+#etchBorder {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    align-items: center;
+    margin: 10% 10% 10% 10%;
+    height: 65vh;
+    width: 50vw;
+    background-color: rgb(255, 61, 61);
+    border-radius: 3%;
+    box-shadow: 0px -20px rgb(156, 37, 37);
+    max-width: 500px;
+    min-width: 400px;
+}
+#playArea {
+    display:grid;
+    margin-bottom: 50px;
+    border: 8px solid rgb(104, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(177, 171, 171);
+    height: 90%;
+    min-width: 95%;
+}
+#areaRange {
+    accent-color:rgb(255, 171, 45);
+    width: 100%;
+    margin: 0 50px 30px 50px;
+}
+.updatedColor {
+    background-color: red;
+    border: 1px solid black;
+}
+#gridSquare {
+    border: solid black 1px;
+    background-color: white;
+    display:flex;
+    flex-grow: 1;
+}
+#btns{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+button {
+    font-size: .8rem;
+    width: 20%;
+    height: 20%;
+    min-width: auto;
+    min-height: 75px;
+    background-color: rgb(233, 233, 233);
+    color:black;
+    border: .5vh solid white;
+    border-radius: 50%;
+}
+button:hover{
+    background-color: rgb(192, 192, 192)
+}
+#eraser, #resetBtn {
+    box-shadow: -1px -5px 0px 1px rgb(216, 215, 215);
+}
+#greyBtn, #rainbowBtn {
+    box-shadow: 1px -5px 0px 1px rgb(216, 215, 215);
+}

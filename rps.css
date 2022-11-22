@@ -1,0 +1,76 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #232535;
+    font-family: monospace;
+    color: rgb(219, 219, 219);
+}
+header {
+    height: 100px;
+    width: 100%;
+    background-color: #15161b;
+    color: rgb(156, 108, 44);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+article {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    align-items: center;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header, main, footer {
+    flex-shrink: 0;
+}
+#outcome {
+    margin: 25px;
+}
+#outcomes{
+    display: flex;
+}
+#playerContainer, #computerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+#playerOutcome, #computerOutcome {
+    height: 75px;
+    width: auto;
+    padding: 40px;
+}
+#btnContainer {
+    height: 200px;
+    width: auto;
+}
+#rock, #paper, #scissors {
+    margin: 25px;
+    border-radius: 10%;
+    border: outset 1px;
+    width: auto;
+    height: 100px;
+    padding: 20px;
+}
+#rock:hover {
+    height: 110px;
+    width: auto;
+}
+#paper:hover{
+    height: 110px;
+    width: auto;
+}
+#scissors:hover {
+    height: 110px;
+    width: auto;
+}
