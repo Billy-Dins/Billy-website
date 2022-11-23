@@ -5,6 +5,38 @@ html, body {
     font-family: monospace;
     color: rgb(219, 219, 219);
 }
+.sticky{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position:sticky;
+    top:10px;
+    padding: 8px;
+    color:white;
+    font-size: 1.8vw;
+    background-color:lightblue;
+    box-shadow: 2px 2px black;
+  }
+  a{
+    font-family: 'Rubik Distressed', cursive;
+  }
+  a:link {
+    color:black;
+  }
+  a:visited {
+    color: aliceblue;
+  }
+  a:hover{
+    cursor: pointer;
+    color: red;
+  }
+  #banner {
+    text-align: left;
+    font-size: 3rem;
+    letter-spacing: -4px;
+    font-family: 'Rubik Distressed';
+    font-weight: 2;
+  }
 header {
     height: 100px;
     width: 100%;
